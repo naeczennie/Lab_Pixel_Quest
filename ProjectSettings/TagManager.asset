@@ -9,6 +9,7 @@ TagManager:
   - Health
   - Coin
   - Collision
+  - Jump
   layers:
   - Default
   - TransparentFX
