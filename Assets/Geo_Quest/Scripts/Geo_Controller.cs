@@ -11,6 +11,7 @@ public class Geo_Controller : MonoBehaviour
     private Rigidbody2D rb;
     public int speed = 5;
     public string nextLevel = "Scene_2";
+    private int coinCounter = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -60,6 +61,11 @@ public class Geo_Controller : MonoBehaviour
             case "Finish":
                 {
                     SceneManager.LoadScene(nextLevel);
+                    break;
+                }
+            case "Coin":
+                { coinCounter++;
+                    Destroy(collision.gameObject);
                     break;
                 }
         }
