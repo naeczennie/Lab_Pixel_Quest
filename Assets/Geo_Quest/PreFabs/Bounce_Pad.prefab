@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7385100763241865360}
   - component: {fileID: 6410174393387832872}
   - component: {fileID: 9074053339692013474}
+  - component: {fileID: 8584122800838561225}
   m_Layer: 0
   m_Name: Bounce_Pad
   m_TagString: Untagged
@@ -133,3 +134,23 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!249 &8584122800838561225
+AreaEffector2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7305774041691178685}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGlobalAngle: 0
+  m_ForceAngle: 0
+  m_ForceMagnitude: 100
+  m_ForceVariation: 0
+  m_ForceTarget: 0
+  m_Drag: 0
+  m_AngularDrag: 0
